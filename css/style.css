@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(129, 134, 133);
+    text-align: center;
+    background: #124242;
+    /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+}
+
+.containerado {
+    background-color: rgba(92, 46, 2, 0.342);
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    border-left: solid 15px rgb(11, 129, 197);
+    border-right: solid 15px rgb(7, 121, 156);
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border: solid 3px rgb(5, 88, 37);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.foto img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+input {
+    display: block;
+}
+
+.link-warning {
+    margin-top: 25px;
+    display: inline-block;
+    color: rgb(196, 33, 218);
+}
+
+button {
+    width: 150px;
+}
+
+h1 {
+    color: rgb(240, 248, 255);
+}
+
+.clouse {
+    align-items: center;
+    border: solid 5px rgba(69, 42, 165, 0.068);
+    border-radius: 10px;
+}
+
+.fundo img {
+    width: 100%;
+}
+
+@keyframes color {
+    0% {
+        background: #134b4b;
+    }
+    20% {
+        background: #551740;
+    }
+    40% {
+        background: #454d12;
+    }
+    60% {
+        background: #474745;
+    }
+    80% {
+        background: #000000;
+    }
+    100% {
+        background: #1a1f69;
+    }
+}
+
+
+/*  aqui responsivo   */
+
+@media only screen and (max-device-width: 900px) {
+    .containeri {
+        width: 100%;
+    }
+    .containerado {
+        width: 100%;
+    }
+}
